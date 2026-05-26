@@ -3,7 +3,7 @@
 Plugin Name: VQT Twilio WhatsApp for WooCommerce
 Description: Advanced Twilio WhatsApp notifications for WooCommerce orders and account events with Twilio template support, dynamic variables, logs and test message.
 Author: Virtual Qube Technologies
-Author URI: https://virtualqube.com
+Author URI: https://vqubetech.com
 Version: 2.1.0
 Requires Plugins: woocommerce
 */
