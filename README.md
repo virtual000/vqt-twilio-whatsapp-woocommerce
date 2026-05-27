@@ -94,7 +94,7 @@ Supports:
 ---
 
 ### Example Twilio Template 
-
+```text
 Hi {{1}},
 
 Your order #{{2}} is now {{4}}.
@@ -102,15 +102,17 @@ Your order #{{2}} is now {{4}}.
 Order total: {{3}}
 
 Thank you for shopping with us.
+```
 
 For Twilio approved WhatsApp templates, use numbered variables:
-
+```text
 {{1}} = customer_name
 {{2}} = order_id
 {{3}} = order_total
 {{4}} = order_status
 {{5}} = site_name
 {{6}} = items_list
+```
 
 Note: For WhatsApp template approval, avoid using {{6}} / {items_list} in your first template because long dynamic item lists may be rejected.
 
